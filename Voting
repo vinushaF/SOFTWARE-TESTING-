@@ -1,0 +1,31 @@
+import static org.junit. Assert.assert True,
+
+import java.util.Scanner;
+
+class four
+
+{
+
+public static void main(String[] args)
+
+{
+
+int age,shrt;
+
+Scanner scan new Scanner(System.in);
+
+System.out.println(" Please enter your age");
+
+age scan.nextInt();
+
+{ System.out.println("Welcome to voting system Yo can Vote");
+
+else
+
+if(age-18)
+
+shrt (18-age);
+
+System.out.println("Sorry, You can vote after:"+ shrt+" years");
+
+assertTrue(age shrt);
