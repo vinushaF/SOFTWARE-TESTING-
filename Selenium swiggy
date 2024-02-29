@@ -1,0 +1,25 @@
+package Proj:
+
+import org.openqa.selenium.By:
+
+import org.openqa.selenium. WebDriver,
+
+import org.openqa selenium. WebElement;
+
+import org.openqa.selenium.chrome.ChromeDriver,
+
+public class loginpage ( public static void main(String s[]){
+
+WebDriver driver new ChromeDriver();
+
+; System.setProperty("webdriver.chrome.driver". "C://chromedriver.exe")
+
+driver.get("https://www.swiggy.com/?utm source Google- Sok&utm medium CPC&utm campaign perf food nu google search sok narm brand v
+
+1 v2 march23 brand em&gclid=CjwKCAjwjYKjBhB5EiwAiFdSfrdLVA- UKWyVK60DxCwxHLKmh3lOfjK9ya mDXHMfbN5Waws1oQUUvhoCNFsQAVD BwE");
+
+WebElement textBox driver.findElement(By.className("x4bK8"));
+
+driver.manage().window().maximize();
+
+textBox.click():
